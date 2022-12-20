@@ -1,9 +1,6 @@
-﻿using buscaCep.DTOs;
-using System;
-using System.Linq;
+﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using static System.Net.WebRequestMethods;
 
 namespace buscaCep
 {
