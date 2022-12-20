@@ -16,7 +16,7 @@ namespace buscaCep
             Console.WriteLine();
 
             var cepInfo = new CepWebScraping();
-            var getCep = cepInfo.GetCepInfo(cep);
+            _ = cepInfo.GetCepInfo(cep);
 
             Console.ReadKey();
         }
